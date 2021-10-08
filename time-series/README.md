@@ -12,6 +12,11 @@
   - [fedot_ts_case.ipynb](https://github.com/ITMO-NSS-team/fedot_electro_ts_case/blob/main/case/fedot_ts_case.ipynb)
   - [ts_case_others.ipynb](https://github.com/ITMO-NSS-team/fedot_electro_ts_case/blob/main/case/ts_case_others.ipynb)
 
-### 其他看到的程式碼範例
+### statsmodels
+- [Autoregressions](https://www.statsmodels.org/stable/examples/notebooks/generated/autoregressions.html)
+  <br>(資料來源：[Time series forecasting with FEDOT. Guide](https://github.com/ITMO-NSS-team/fedot-examples/blob/main/notebooks/latest/3_intro_ts_forecasting.ipynb))
+
+### 其他看到的程式碼範例(散篇)
 - [forecasting_models/python_models.ipynb](https://github.com/davide-burba/forecasting_models/blob/master/python_models.ipynb)
   <br>(資料來源：[An overview of time series forecasting models](https://towardsdatascience.com/an-overview-of-time-series-forecasting-models-a2fa7a358fcb))
+- [Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras](https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/)
