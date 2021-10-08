@@ -23,7 +23,6 @@
 
 ### [A Multivariate Time Series Guide to Forecasting and Modeling (with Python codes)](https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/)
 Metrics:
-```
 | Columns       | rmse       |
 | ------------- | ----------:|
 | CO(GT)        |   1.420039 |
@@ -39,4 +38,4 @@ Metrics:
 | T             | 383.134436 |
 | RH            | 506.584739 |
 | AH            |   8.139735 |
-```
+
