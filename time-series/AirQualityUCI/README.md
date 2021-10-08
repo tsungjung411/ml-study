@@ -24,17 +24,19 @@
 ### [A Multivariate Time Series Guide to Forecasting and Modeling (with Python codes)](https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/)
 Metrics:
 ```
-rmse value for CO(GT) is :  1.4200393103392812
-rmse value for PT08.S1(CO) is :  303.3909208229375
-rmse value for NMHC(GT) is :  204.0662895081472
-rmse value for C6H6(GT) is :  28.153391799471244
-rmse value for PT08.S2(NMHC) is :  6.538063846286176
-rmse value for NOx(GT) is :  265.04913993413805
-rmse value for PT08.S3(NOx) is :  250.7673347152554
-rmse value for NO2(GT) is :  238.92642219826683
-rmse value for PT08.S4(NO2) is :  247.50612831072633
-rmse value for PT08.S5(O3) is :  392.3129907890131
-rmse value for T is :  383.1344361254454
-rmse value for RH is :  506.5847387424092
-rmse value for AH is :  8.139735443605728
+| Columns       | rmse       |
+| ------------- | ----------:|
+| CO(GT)        |   1.420039 |
+| PT08.S1(CO)   | 303.390921 |
+| NMHC(GT)      | 204.066290 |
+| C6H6(GT)      |  28.153392 |
+| PT08.S2(NMHC) |   6.538064 |
+| NOx(GT)       | 265.049140 |
+| PT08.S3(NOx)  | 250.767335 |
+| NO2(GT)       | 238.926422 |
+| PT08.S4(NO2)  | 247.506128 |
+| PT08.S5(O3)   | 392.312991 |
+| T             | 383.134436 |
+| RH            | 506.584739 |
+| AH            |   8.139735 |
 ```
