@@ -31,7 +31,7 @@ class AzureEndpoint:
         self.target_column_name = target_column_name
         self.metric_dict = metric_dict
         
-        allowSelfSignedHttps(True) # this line is needed if you use self-signed certificate in your scoring service.
+        self.allowSelfSignedHttps(True) # this line is needed if you use self-signed certificate in your scoring service.
 
     def get_input(self, row_idx: int) -> dict:
         '''
@@ -47,13 +47,13 @@ class AzureEndpoint:
         for column in columns:
             value = df.loc[row_idx][column]
 
-            if type(value) == np.int64:
+            if type(value) == numpy.int64:
                 value = int(value)
 
             data_in_dict[column] = value
         return data_in_dict
 
-    def allowSelfSignedHttps(allowed):
+    def allowSelfSignedHttps(self, allowed):
         # bypass the server certificate verification on client side
         if allowed and not os.environ.get('PYTHONHTTPSVERIFY', '') and getattr(ssl, '_create_unverified_context', None):
             ssl._create_default_https_context = ssl._create_unverified_context
