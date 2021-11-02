@@ -1,7 +1,7 @@
 
 ## Endpoint
 
-```python=
+```python
 import pandas
 import numpy
 
