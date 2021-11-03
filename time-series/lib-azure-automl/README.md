@@ -19,7 +19,7 @@ class AzureEndpoint:
                  metric_dict: dict={
                      'r2': r2_score, 
                      'rmse': lambda y_true, y_pred: 
-                         mean_squared_error(y_true_list, y_pred_list, squared=False)
+                         mean_squared_error(y_true, y_pred, squared=False)
                  }):
         '''
         url: REST endpoint
@@ -115,6 +115,7 @@ class AzureEndpoint:
             metric_result[name] = value
         
         return y_pred_list, metric_result
+       
 ```
 
 測試：
